@@ -1,27 +1,21 @@
-# Study Hours and Confidence: A Regression Analysis
+# Study Hours and Confidence Analysis  
 
-This project explores the relationship between study hours and students’ confidence using Python.  
+This project explores how study hours relate to confidence levels using simple regression models.  
+It was created to practice data analysis and econometric methods in Python.  
 
-## Methods
-- Simulated dataset with NumPy
-- Ordinary Least Squares (OLS) regression
-- Two-Stage Least Squares (2SLS) regression with an instrumental variable
+**What’s inside:**  
+- A small dataset of study hours and confidence scores (simulated data)  
+- Ordinary Least Squares (OLS) regression using `statsmodels`  
+- Instrumental Variables (2SLS) regression using `linearmodels`  
+- Simple visualizations with `matplotlib`  
 
-## Tools
-- Python (pandas, numpy, statsmodels, linearmodels, matplotlib)
-- Jupyter Notebook for analysis and documentation
+**Skills practiced:**  
+- Importing and cleaning data with `pandas`  
+- Running and interpreting regression models  
+- Presenting results clearly in Python  
 
-## Key Takeaways
-- OLS suggests study hours predict confidence.
-- IV regression corrects for bias by using library distance as an instrument.
-- Demonstrates ability to code, analyze data, and interpret results.
+The code is written as a learning exercise and demonstrates my ability to work with data and econometric tools in Python.  
 
-## How to Run
-1. Clone the repo:  
-   `git clone https://github.com/YOUR-USERNAME/study-hours-confidence-analysis.git`
-2. Install dependencies:  
-   `pip install pandas statsmodels linearmodels matplotlib`
-3. Run the notebook or Python script.
 
 
 
