@@ -10,7 +10,7 @@ It was created to practice data analysis and econometric methods in Python.
 - Simple visualizations with `matplotlib`  
 
 **Skills practiced:**  
-- Importing and cleaning data with `pandas`  
+- Importing and cleaning data with `pandas`    
 - Running and interpreting regression models  
 - Presenting results clearly in Python  
 
