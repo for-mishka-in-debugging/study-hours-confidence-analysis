@@ -1,22 +1,20 @@
 # Study Hours and Confidence Analysis  
 
-This project explores how study hours relate to confidence levels using simple regression models.  
-It was created to practice data analysis and econometric methods in Python.  
+Study Hours and Confidence: A Regression Analysis
 
-**What’s inside:**  
-- A small dataset of study hours and confidence scores (simulated data)  
-- Ordinary Least Squares (OLS) regression using `statsmodels`  
-- Instrumental Variables (2SLS) regression using `linearmodels`  
-- Simple visualizations with `matplotlib`  
+Project Overview
+I wanted to explore whether the number of hours students study has any relationship with how confident they feel academically. This connects to my broader interest in learning and teaching — since I already work with peers at the Academic Resource Center, I was curious to see if there’s some measurable link between preparation and self-confidence.
 
-**Skills practiced:**  
-- Importing and cleaning data with `pandas`    
-- Running and interpreting regression models  
-- Presenting results clearly in Python  
+Methods
+Created a small dataset with study hours and reported confidence levels.
+Used pandas to structure the data and statsmodels for analysis.
+Ran an Ordinary Least Squares (OLS) regression to see if study hours predict confidence.
+For robustness, I also explored an instrumental variables (2SLS) regression, to mimic how more complex models deal with potential bias in real-world data.
 
-The code is written as a learning exercise and demonstrates my ability to work with data and econometric tools in Python.  
-
-
+Results
+The OLS model suggested a positive relationship: more study hours were associated with higher confidence levels.
+The regression coefficient was positive (≈ 0.55), meaning that for each additional study hour, confidence tended to increase by a modest amount.
+The results weren’t from a large dataset, but they followed intuition: preparation helps students feel more in control.
 
 
 
